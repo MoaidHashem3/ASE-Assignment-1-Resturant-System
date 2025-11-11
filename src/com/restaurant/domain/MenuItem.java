@@ -1,4 +1,6 @@
 package com.restaurant.domain;
 
-public class MenuItem {
+public interface MenuItem {
+    String getDescription();
+    double getPrice();
 }
