@@ -13,10 +13,11 @@ public class ComboDiscount implements DiscountStrategy {
     }
 
     @Override
-    public double calculateDiscount(Order order) {
+    public DiscountResult calculateDiscount(Order order) {
         if (order.getItems().size() >= 2) {
-            return amount;
+            return new DiscountResult("Combo Discount", amount);
         }
-        return 0.0;
+        return new DiscountResult("Combo Discount", 0.0);
     }
+
 }

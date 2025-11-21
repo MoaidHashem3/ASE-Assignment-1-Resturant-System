@@ -19,17 +19,18 @@ public class RestaurantFacade {
     private final DataStorage store = new DataStorage();
     private final OrderPublisher publisher = new OrderPublisher();
 
-    // Billing & discount
-    private final DiscountChain discountChain = new DiscountChain();
-    private final com.restaurant.billing.BillGenerator billGenerator;
+    private final java.util.List<DiscountStrategy> discountStrategies = new java.util.ArrayList<>();
+    private final BillGenerator billGenerator;
 
     public RestaurantFacade() {
         buildMenusFromFactories();
 
-        discountChain.addStrategy(new PizzaDiscount(0.10));
-        discountChain.addStrategy(new ComboDiscount(5.0));
-        billGenerator = new BillGenerator(discountChain, 0.14);
+        discountStrategies.add(new PizzaDiscount(0.10));
+        discountStrategies.add(new ComboDiscount(5.0));
+        discountStrategies.add(new NoDiscount());
+        billGenerator = new BillGenerator(discountStrategies, 0.14);
     }
+
 
     public void registerMenu(String name, MenuComponent menu) {
         store.saveMenu(name, menu);

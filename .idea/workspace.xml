@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7533da-8ec2-4180-a52c-35b0b2136485" name="Changes" comment="Setting up">
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/billing/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/billing/BillGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/facade/RestaurantFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/notification/OrderPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/payment/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/payment/CashPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/payment/MobileWalletPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/payment/PaymentResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/payment/PaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/ComboDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/DiscountChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/DiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/NoDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/PizzaDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/storage/DataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/structure/MenuComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/structure/MenuComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurant/structure/MenuLeaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/DiscountResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/restaurant/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/restaurant/notification/WaiterScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/notification/WaiterScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/restaurant/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurant/billing/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/billing/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurant/billing/BillGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/billing/BillGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurant/facade/RestaurantFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/facade/RestaurantFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurant/pricing/ComboDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/ComboDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurant/pricing/DiscountChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurant/pricing/DiscountStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/DiscountStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurant/pricing/NoDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/NoDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurant/pricing/PizzaDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/restaurant/pricing/PizzaDiscount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
