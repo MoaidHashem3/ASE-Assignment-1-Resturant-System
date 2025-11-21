@@ -1,2 +1,6 @@
-package com.restaurant.payment;public interface PaymentStrategy {
+package com.restaurant.payment;
+
+import com.restaurant.domain.Order;
+public interface PaymentStrategy {
+    PaymentResult pay(Order order, double amount);
 }

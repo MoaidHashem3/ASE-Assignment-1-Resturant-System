@@ -1,2 +1,7 @@
-package com.restaurant.pricing;public interface DiscountStrategy {
+package com.restaurant.pricing;
+
+import com.restaurant.domain.Order;
+public interface DiscountStrategy {
+
+    double calculateDiscount(Order order);
 }
